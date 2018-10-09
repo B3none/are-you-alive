@@ -1,4 +1,4 @@
 # are-you-alive
 Automatically clicks yes to the "Are you still watching" youtube popups.
 
-`$('#text').click();`
+`$('#confirm-button').children[0].click();`
