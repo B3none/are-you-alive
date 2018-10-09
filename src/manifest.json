@@ -1,0 +1,20 @@
+{
+  "name": "Are you alive?",
+  "short_name": "AYA",
+  "version": "1.0.0",
+  "version_name": "v1.0.0",
+  "author": "B3none",
+  "manifest_version": 2,
+  "description": "Automatically clicks yes to the \"Are you still watching?\" popups on YouTube.",
+  "background": {
+    "scripts": [
+      "js/i-am-alive.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ]
+}
