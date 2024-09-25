@@ -14,7 +14,6 @@
     "activeTab"
   ],
   "host_permissions": [
-    "http://*/",
-    "https://*/"
+    "https://*.youtube.com/"
   ]
 }
